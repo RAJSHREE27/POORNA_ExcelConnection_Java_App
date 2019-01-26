@@ -17,6 +17,7 @@ public class Query3 {
         XSSFSheet sheet = workbook.getSheetAt(0);
         Iterator<Row> row_it = sheet.iterator();
    	 	HashSet<String> players = new HashSet<String>();
+   	 	
         while(row_it.hasNext()) {
         	 Row row = row_it.next();
         	 Cell name = row.getCell(1);

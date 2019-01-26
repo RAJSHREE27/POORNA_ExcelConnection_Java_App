@@ -20,5 +20,10 @@ public class App
     	Query3 query3 = new Query3();
     	query3.result();
     	
+    	System.out.println("\n\nResult of Query 4 : ");
+    	Query4 query4 = new Query4();
+    	query4.result();
+    	
+    	
     }
 }
